@@ -1,0 +1,1078 @@
+
+html{
+
+}
+
+.dota2_container{
+	width:100%;
+	height:auto;
+	background:#1B1C1F;
+}
+
+.dota2_container a{
+	text-decoration:none;
+}
+/*头部导航栏*/
+.dota2_nav_container{
+	width:100%;
+	height:80px;
+	background:#13171A;
+	border-bottom:1px solid #252628;
+}
+
+/*.dota2_nav_container{
+	width:100%;
+	height:80px;
+}*/
+
+/*链接导航栏*/
+.nav_main{
+	width:1200px;
+	height:100%;
+	margin: 0 auto;
+}
+
+.nav_main>a{
+    width: 260px;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.dota2_nav{
+	width:644px;
+	height:100%;
+}
+
+
+.nav_main>a,.dota2_nav{
+	float:left;
+}
+
+.nav_link{
+	position: relative;
+    float: left;
+    padding: 23px 7px;
+    text-align: center;
+    width: 78px;
+    height:34px;
+}
+
+/*.nav-link:hover{
+	background:black;
+}*/
+
+.nav_link:hover>a{
+	color:#00b7f4;
+}
+
+.nav_link a{
+	display: block;
+	color:#827C79;
+}
+
+/*.nav-link:hover .link-pop{
+	height:239px;
+}*/
+
+.nav_link span{
+	display: block;
+}
+
+.link_nav_e{
+	margin-top: 2px;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.link_pop{
+	width: 100%;
+    height: 0px;
+    background:url(../images/index/data2.home.submenu.bg.png) top center no-repeat;
+    margin-top: 16px;
+    position: absolute;
+    left:0;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+    background-size: cover;
+    overflow:hidden;
+    z-index:2;
+}
+
+
+/*链接导航栏结束*/
+
+/*usr登录导航栏*/
+
+.dota2_user{
+	width:234px;
+	height:100%;
+	float:right;
+}
+
+.nav_avatar{
+	position: absolute;
+	width:50px;
+	height:50px;
+	top:13px;
+	background-color: #101215;
+	border-radius: 50%;
+    border: 1px solid #262323;
+    background-image: url(../images/index/icons.png);
+    background-position: 13px -451px;
+    box-sizing: content-box;
+}
+
+.enter_name{
+	position: absolute;
+    display: block;
+    margin-left:60px;
+    margin-top:17px;
+}
+
+.name{
+	font-size: 18px;
+    color: #fff;
+    line-height: 1.2;
+    text-overflow: ellipsis;
+    /*overflow: hidden;*/
+    white-space: nowrap;
+    margin: 0;
+    margin-bottom: 3px;
+    font-family: "Microsoft YaHei",Verdana,Geneva,sans-serif,\5b8b\4f53;
+}
+
+.name a{
+	color: #00b7f4;
+}
+
+
+
+.tt{
+	font-size: 12px;
+    color: #898989;
+    padding: 0;
+    line-height: 1.5;
+    font-family: "Microsoft YaHei",Verdana,Geneva,sans-serif,\5b8b\4f53;
+}
+/*头部内容样式结束*/
+
+
+/*-------主体内容样式开始---------------------------------------*/
+
+.u_wrapper{
+	width:100%;
+}
+
+.u_container{
+	display:inline-block;
+	width:100%;
+}
+
+/* ------轮播图--------------------------- */
+
+.slideshow_container{
+	width:100%;
+	height:600px;
+	overflow:hidden;
+	position: relative;
+}
+
+.slideshow{
+	width:500%;
+	height:100%;
+	position: absolute;
+}
+
+.slideshow img{
+	width:20%;
+	height:100%;
+	float:left;
+}
+.spot{
+	position: relative;
+	z-index: 5;
+	color:#fff;
+	float:left;
+	margin-top:550px;
+	left:47.6%;
+}
+.spot>li{
+	border-style: solid;
+	width: 8px;
+	height: 8px;
+	display: inline-block;
+	border-radius: 25px;
+	margin-left:5px;
+}
+.spot_on{
+	border-color: red;
+}
+.arrow{
+	position: absolute;
+	top: 245px;
+	width: 47px;
+	height: 90px;
+	margin-right: 10px;
+	vertical-align: middle;
+	cursor: pointer;
+	background: url(../images/dota2.home.icons.png) top center no-repeat;
+}
+.left_arrow{
+	left:300px;
+	top:250px;
+	background-position: -185px -857px;
+}
+.right_arrow{
+	right: 300px;
+	top:250px;
+	background-position: -95px -856px;
+}
+
+
+/*-----------第一行-----------------------------------*/
+
+.u_section{
+	width: 1200px;
+    margin: 0 auto 50px;
+    overflow: hidden;
+}
+
+.u_left_box{
+	width: 750px;
+    box-sizing: border-box;
+    position: relative;
+    display:inline-block;
+    float:left;
+}
+
+.u_right_box{
+	margin-left: 30px;
+    width: 420px;
+    box-sizing: border-box;
+    float:left;
+    display:inline-block;
+}
+
+.u_button{
+	background: url(../images/index/u_left_buttons.png) no-repeat 0 0;
+	display: block;
+    float: left;
+    width: 246px;
+    height: 93px;
+    margin: auto 6px auto 0;
+}
+
+.u_button span{
+	width:100%;
+	height:100%;
+}
+
+.u_btn_recharge{
+	background-position: 0 0;
+}
+
+.u_btn_recharge:hover{
+	background-position: 0 -94px;
+}
+
+.u_btn_download{
+	background-position: -252px 0;
+}
+
+.u_btn_download:hover{
+	background-position: -252px -94px;
+}
+
+.u_btn_signup{
+	margin: 0 auto;
+	background-position: -508px 0;
+}
+
+.u_btn_signup:hover{
+	background-position: -508px -94px;
+}
+
+.u_even{
+	background: url(../images/index/u_right_buttons.png) no-repeat 0 0;
+	display: block;
+    height: 95px;
+    width: 140px;
+    float:left;
+}
+
+.u_btn_source{
+	background-position: 0 0;
+}
+
+.u_btn_source:hover{
+	background-position: 0 -96px
+}
+
+.u_btn_steps{
+	background-position:-140px 0px;
+}
+
+.u_btn_steps:hover{
+	background-position:-140px -96px;
+}
+
+
+.u_btn_min{
+	background-position:-280px 0px;
+}
+
+.u_btn_min:hover{
+	background-position:-280px -96px;
+}
+
+/*-------section2---------------------------------------------*/
+
+.u_title{
+	width:100%;
+	display:inline-block;
+}
+
+.u_left{
+	float:left;
+}
+
+.u_icon{
+	display: inline-block;
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    vertical-align: middle;
+    background: url(../images/index/dota2.home.icons.png) top center no-repeat;
+}
+
+.u_icon_new{
+	background-position: -3px -1px;
+}
+
+.u_title span{
+	display: inline-block;
+    vertical-align: middle;
+    line-height: 35px;
+    margin-left: -10px;
+    color:#fff;
+}
+
+.u_right{
+	float:right;
+}
+
+.u_right:hover a{
+	color: #00c0ff;
+}
+
+.u_right:hover i{
+	background-position: -3px -775px;
+}
+
+.u_icon_more{
+	width: 10px;
+    height: 10px;
+    margin: 0;
+    background-position: -3px -789px;
+}
+
+.u_right a{
+	color: #ccc;
+	font-size:12px;
+	line-height: 35px;
+	margin-left: -10px;
+}
+
+.tabs{
+	width:100%;
+	overflow: hidden;
+    color: #999999;
+}
+
+.u_tab{
+	width:20%;
+	float: left;
+    position: relative;
+    padding: 10px 0;
+    border:1px solid #333;
+    border-left-color: transparent;
+    box-sizing: border-box;
+    line-height: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tab_active{
+	border-color: #999;
+    color: #ccc;
+}
+
+.u_tab:hover{
+	border-color: #999;
+    color: #ccc;
+    transition: border-color 0.5s ease;
+}
+
+.u_panel{
+	width: 100%;
+	display:none;
+}
+
+.panel_active{
+	display:block;
+}
+
+.u_recommend{
+	display: block;
+    padding: 15px 40px 15px 20px;
+    margin: 25px 5px 15px 5px;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    border: 1px solid #1b1c20;
+}
+
+.u_recommend h3{
+	white-space: nowrap;
+    font-size: 24px;
+    color: #00c0ff;
+
+}
+
+.u_contents{
+	margin-top: 22px;
+    overflow: hidden;
+    color: #999;   
+}
+
+.u_item_avatar{
+	float: left;
+    width: 200px;
+    height: 120px;
+    margin-right: 20px;
+}
+
+.u_item_avatar img{
+	width:100%;
+	height:100%;
+}
+
+.u_msg{
+	line-height:22px;
+}
+
+.u_msg p{
+	max-height: 88px;
+    overflow: hidden;
+    font-size:14px;
+}
+
+.u_date{
+	display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+    margin-top: 8px;
+    vertical-align: middle;
+    color: #999;
+}
+
+.u_recommend:hover{
+	border: 1px solid #00c0ff;
+    box-shadow: 0 0 8px #00c0ff;
+    transition: all 0.5s ease;
+}
+
+.u_list{
+	width:96%;
+	height: 45px;
+    line-height: 45px;
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 2px;
+    display:inline-block;
+    padding-left:20px;
+    color:#ccc;
+}
+
+.u_icon_dot{
+	width: 10px;
+    height: 10px;
+    background-position: -3px -803px;
+}
+
+.u_list p{
+	display: inline-block;
+    vertical-align: middle;
+    margin-left: -5px;
+    max-width: 560px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #ccc;
+}
+
+.u_list span{
+	float:right;
+	padding-right:20px;
+}
+
+.u_list:hover p,.u_list:hover span{
+	color: #00c0ff;
+}
+
+.u_list:hover i{
+	background-position: -3px -813px;
+}
+
+
+.u_hotvideo{
+	width:100%;
+	display:inline-block;
+}	
+
+.u_icon_hotvideo{
+	background-position: -40px -1px;
+}
+
+.u_hotvideo .u_content{
+	height: 202px;
+    width: 420px;
+    margin-bottom: 28px;
+    overflow: hidden;
+
+}
+
+.video{
+	width:100%;
+	height:100%;
+}
+
+.video_btn{
+	width:100%;
+	height:100%;
+	display:inline-block;
+    transition: all 0.5s ease;
+}
+
+.video_btn:hover{
+	transform: scale(1.033);
+}
+
+.video_btn img{
+	width:100%;
+	height:100%;
+}
+
+.u_racecenter_content{
+	height: 314px;
+	overflow:hidden;
+}
+
+.racecenter_slideshow a{
+	width:100%;
+}
+
+.swiper-slide img{
+	height:232px;
+    border: 1px solid #1b1c20;
+}
+
+.racecenter_slideshow span{
+    display: block;
+    line-height: 42px;
+    text-align: center;
+    color: #feffff;
+    font-size: 20px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0 10px;
+    height:60px;
+}
+
+.racecenter_slideshow:hover img{
+	border:1px solid #00c0ff;
+}
+
+.racecenter_slideshow:hover span{
+	color:#00c0ff;
+}
+
+/*-----------section3-------------------------------------------*/
+
+.u_left span{
+	color:#fff;
+}
+
+.u_icon_activity{
+	background-position: -3px -85px;
+}
+
+ .u_activity_list{
+    float: right;
+    width: 563px;
+    margin-top: 6px;
+    position: absolute;
+    right: 0px;
+ }
+
+ .u_activity_type{
+	float: left;
+    font-size: 14px;
+    color: #999999;
+    cursor: pointer;
+    width: 140px;
+    text-align: center;
+    height: 32px;
+    position: relative;
+ }
+
+ .u_activity_section .u_content{
+ 	border:1px solid #333333;
+ }
+
+ .selected{
+ 	border-bottom: 1px solid #00c0ff;
+    color: #00c0ff;
+ }
+
+ .u_border{
+ 	font-size:16px;
+ 	border-right: 1px solid #333333;
+ }
+
+ .u_activity_container{
+ 	position: relative;
+ 	display:none;
+ }
+
+ .activity_selected{
+ 	display:block;
+ }
+
+ .slick_list{
+ 	position: relative;
+ 	height: 450px;
+    overflow: hidden;
+    width: 746px;
+ }
+
+ .u_activities{
+ 	padding: 40px 40px 10px;
+    overflow: hidden;
+/*    border:1px solid #333333;*/
+ }
+
+ .u_activity_row{
+ 	display:line-block;
+ 	overflow: hidden;
+ 	margin-top:30px;
+ }
+
+ .u_activity_row:first-child{
+ 	margin-top:0px;
+ }
+
+ .u_activity{
+	position: relative;
+    float: left;
+    text-align: center;
+    width: 310px;
+    color: #999;
+    font-size: 16px;
+    border: 1px solid transparent;
+ }
+
+ .u_activity:first-child{
+ 	margin-right: 40px;
+ }
+
+ .u_activity:hover img{
+ 	border: 1px solid #00c0ff;
+    transition: border-color 0.5s ease;
+ }
+
+ .u_activity_logo{
+ 	position: relative;
+    float: left;
+    text-align: center;
+    width: 310px;
+    color: #999;
+    font-size: 16px;
+    border: 1px solid transparent;
+ }
+
+ .u_activity_logo img{
+ 	width:99%;
+ 	height:100%;
+    border: 1px solid #1b1c20;
+ }
+
+ .u_activity_title{
+    margin-top: 10px;
+    line-height: 20px;
+    height:20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 16px;
+    color: #999999;
+    display:inline-block;
+ }
+
+ .a_activityes{
+	display:inline-block;
+ }
+
+ .u_activityes{
+    width: 114px;
+    height: 28px;
+    background: url(../images/index/activities_01.png) 0px 0px;
+    position: absolute;
+    top: 506px;
+    left: 320px;
+    cursor: pointer;
+ }
+
+ .u_version{
+
+ }
+
+ .u_icon_version{
+ 	background-position: -3px -127px;
+ }
+.u_version_content{
+	width: 100%;
+    height: 242px;
+    margin: 0 auto;
+}
+
+.u_version-container{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+
+.version_slidshow{
+	display:flex;
+	align-items:center;
+    justify-content:center;
+    margin-top:10px;
+}
+
+.u_version-container .version_slidshow{
+	width:100%;
+ 	height:100%;
+}
+
+.u_version-container .u_version_logo{
+	top: 0;
+	bottom: 70%;
+	height:80%;
+	overflow: hidden;	
+}
+
+.u_version_title{
+	top: 80%;
+    bottom: 0;
+    color: #999;
+    vertical-align: middle;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.u_map{
+	margin-top:20px;
+}
+
+.u_icon_map{
+	background-position: -3px -169px;
+}
+
+.u_content{
+	width:100%;
+	height:auto;
+}
+
+.u_map .u_content li{
+	float: left;
+    width: 201px;
+    height: 157px;
+    background-color: #222328;
+}
+
+.u_map .u_content li:first-child{
+	margin-right: 16px;
+}
+
+.u_map .u_content li img{
+    border: 1px solid #1b1c20;
+}
+
+.u_map .u_content li:hover img{
+	border:1px solid #00c0ff;
+}
+
+.u_map .u_content li:hover span{
+	color:#00c0ff;
+}
+
+
+.u_map_logo{
+    width: 100%;
+    height: 119px;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+}
+
+.u_map_title{
+	width:100%;
+	line-height: 35px;
+    color: #999;
+    text-align: center;
+    display:inline-block;
+}
+
+/* ---------section4------------------------------------------- */
+
+.u_icon_vedio{
+	background-position: -3px -212px;
+}
+
+.vedio_tabs{
+	width: 100%;
+    overflow: hidden;
+    color: #999999;
+}
+
+.vedio_tab{
+	width: 25%;
+	float:left;
+    position: relative;
+    padding: 10px 0;
+    border-style: solid;
+    border-color: #333;
+    border-left-color: transparent;
+    border-width: 1px 1px 1px 1px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.vedio_tab:hover{
+	border-color: #999;
+    color: #ccc;	
+}
+
+.vedio_active{
+	border-color: #999;
+    color: #ccc;
+}
+
+.u_icon_ellipsehot{
+	position: absolute;
+    top: 0;
+    right: 10px;
+    width: 37px;
+    height: 37px;
+    background-position: 0 -738px;
+}
+
+.video_panels{
+	border-style: solid;
+    border-color: #333;
+    border-width: 1px 1px 1px 1px;
+    box-sizing: border-box;
+}
+
+.video_panels{
+	overflow: hidden;
+    padding: 30px 30px 10px 25px;
+}
+
+
+.video_panel{
+	display:none;
+}
+
+.video_panel_active{
+	display:inline-block;
+}
+
+.video_item{
+	display: block;
+    position: relative;
+    float: left;
+    margin: 0 0 5px 5px;
+    padding: 10px;
+    width: 225px;
+    height: 190px;
+    color: #999;
+    box-sizing: border-box;
+    border: 1px solid #1b1c20;
+}
+
+.video_item_logo{
+	display: block;
+    width: 200px;
+    height: 117px;
+}
+
+.video_item_logo img{
+	width:100%;
+	height:100%;
+}
+
+.video_item_title{
+	margin-top: 10px;
+    line-height: 18px;
+    font-size:14px;
+}
+
+.video_item:hover{
+	border: 1px solid #00c0ff;
+    box-shadow: 0 0 5px #00c0ff;
+    color: #00c0ff;
+    transition: all 0.5s ease;
+}
+
+
+.u_icon_call{
+	background-position: -3px -253px;
+}
+
+.u_search{
+	 overflow: hidden;
+}
+
+.u_inputgrounp{
+	position: relative;
+    width: 280px;
+    box-sizing: border-box;
+    float: left;
+    height: 35px;
+    border: none;
+}
+
+.u_inputgrounp input{
+	width: 100%;
+    height: 100%;
+    padding: 0 10px;
+    border: 1px solid #08080a;
+    background-color: #111214;
+    outline: none;
+    color: #999;
+    font-family: "Microsoft YaHei";
+    line-height: 35px;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+.u_icon_search{
+	position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 0;
+    background-color: #f74e4e;
+    border-radius: 2px;
+    cursor: pointer;
+    background-position: 6px -692px;
+}
+
+.u_icon_search:hover{
+	background-color: #f76161;
+}
+
+.u_btn_add{
+	float:left;
+	display: block;
+    margin-left: 10px;
+    width: 90px;
+    background-color: #565864;
+    color: #ccc;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.u_btn_add:hover{
+	background-color: #6a6c77;
+}
+
+.u_questions h3{
+	margin-top: 25px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    color: #ccc;
+    border-bottom: 1px solid #333;
+}
+
+.u_questions a{
+	font-size:14px;
+	margin-top:-2px;
+}
+
+
+/*-------主体内容样式结束---------------------------------------*/
+
+/*-------尾部内容样式结束---------------------------------------*/
+
+.dota2_footer_container{
+    font-family: "Microsoft YaHei", 微软雅黑, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    height: 160px;
+    background-color: rgb(0, 0, 0);
+    z-index: 1;
+    font-size: 12px;
+    color: rgb(149, 149, 149);
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.footer_main{
+    margin: 0 auto;
+    width: 1100px;
+    position: relative;
+    /*background:pink;*/
+/*    height:160px;*/
+}
+
+.footer_dl{
+    position: absolute;
+    top:40px;
+}
+
+.footer_dl dt {
+    float: left;
+    padding-left: 75px;
+}
+
+.footer_dl dd {
+    float: right;
+    font-size: 12px;
+    margin: 0;
+    line-height: 1.25;
+    max-width: 750px;
+}
+
+.footer_dl dt a{
+    float: left;
+    padding: 0 20px;
+}
+
+.certificate{
+    position: absolute;
+    top: 85px;
+    left: 230px;
+    line-height: 1.5;
+    font-size: 12px;
+    color: #333;
+    text-align: center;
+}
+
+/*-------尾部内容样式结束---------------------------------------*/

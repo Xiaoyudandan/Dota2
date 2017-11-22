@@ -1,0 +1,442 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.dota2_container{
+	width:100%;
+	height:auto;
+}
+
+.dota2_container a{
+	text-decoration:none;
+}
+/*头部导航栏*/
+.dota2_nav_container{
+	width:100%;
+	height:80px;
+	background:#13171A;
+	border-bottom:1px solid #252628;
+}
+
+/*.dota2_nav_container{
+	width:100%;
+	height:80px;
+}*/
+
+/*链接导航栏*/
+.nav_main{
+	width:1200px;
+	height:100%;
+	margin: 0 auto;
+}
+
+.nav_main>a{
+    width: 260px;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.dota2_nav{
+	width:644px;
+	height:100%;
+}
+
+
+.nav_main>a,.dota2_nav{
+	float:left;
+}
+
+.nav_link{
+	position: relative;
+    float: left;
+    padding: 23px 7px;
+    text-align: center;
+    width: 78px;
+    height:34px;
+}
+
+/*.nav-link:hover{
+	background:black;
+}*/
+
+.nav_link:hover>a{
+	color:#00b7f4;
+}
+
+.nav_link a{
+	display: block;
+	color:#827C79;
+}
+
+/*.nav-link:hover .link-pop{
+	height:239px;
+}*/
+
+.nav_link span{
+	display: block;
+}
+
+.link_nav_e{
+	margin-top: 2px;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.link_pop{
+	width: 100%;
+    height: 0px;
+    background:url(../images/data2.home.submenu.bg.png) top center no-repeat;
+    margin-top: 16px;
+    position: absolute;
+    left:0;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+    background-size: cover;
+    overflow:hidden;
+    z-index:2;
+}
+
+
+
+/*.link-pop>a:hover{
+	color:#00b7f4;
+}*/
+
+
+
+/*链接导航栏结束*/
+
+/*usr登录导航栏*/
+
+.dota2_user{
+	width:234px;
+	height:100%;
+	float:right;
+}
+
+.nav_avatar{
+	position: absolute;
+	width:50px;
+	height:50px;
+	top:13px;
+	background-color: #101215;
+	border-radius: 50%;
+    border: 1px solid #262323;
+    background-image: url(../images/icons.png);
+    background-position: 13px -451px;
+    box-sizing: content-box;
+}
+
+.enter_name{
+	position: absolute;
+    display: block;
+    margin-left:60px;
+    margin-top:17px;
+}
+
+.name{
+	font-size: 18px;
+    color: #fff;
+    line-height: 1.2;
+    text-overflow: ellipsis;
+    /*overflow: hidden;*/
+    white-space: nowrap;
+    margin: 0;
+    margin-bottom: 3px;
+    font-family: "Microsoft YaHei",Verdana,Geneva,sans-serif,\5b8b\4f53;
+}
+
+.name a{
+	color: #00b7f4;
+}
+
+
+
+.tt{
+	font-size: 12px;
+    color: #898989;
+    padding: 0;
+    line-height: 1.5;
+    font-family: "Microsoft YaHei",Verdana,Geneva,sans-serif,\5b8b\4f53;
+}
+/*头部内容样式结束*/
+
+/*主体内容样式*/
+.dota2_main_container{
+	width:100%;
+	height:2648px;
+	background:lightblue;
+}
+
+.slideshow_container{
+	width:100%;
+	height:600px;
+	background:pink;
+	overflow:hidden;
+	position: relative;
+}
+
+.slideshow{
+	width:500%;
+	height:100%;
+	position: absolute;
+}
+
+.slideshow img{
+	width:20%;
+	height:100%;
+	float:left;
+}
+.spot{
+	position: relative;
+	z-index: 5;
+	color:#fff;
+	float:left;
+	margin-top:550px;
+	left:47.6%;
+}
+.spot>li{
+	border-style: solid;
+	width: 8px;
+	height: 8px;
+	display: inline-block;
+	border-radius: 25px;
+	margin-left:5px;
+}
+.spot_on{
+	border-color: red;
+}
+.arrow{
+	position: absolute;
+	top: 245px;
+	width: 47px;
+	height: 90px;
+	margin-right: 10px;
+	vertical-align: middle;
+	cursor: pointer;
+	background: url(../images/dota2.home.icons.png) top center no-repeat;
+}
+.left_arrow{
+	left:300px;
+	top:250px;
+	background-position: -185px -857px;
+/*	background:black;*/
+}
+.right_arrow{
+	right: 300px;
+	top:250px;
+	background-position: -95px -856px;
+}
+
+.u_section{
+	width: 1200px;
+	margin: 0 auto 50px;
+	overflow: hidden;
+	/*margin-left: 30px;*/
+	background:red;
+}
+
+.u_left_box{
+	width:750px;
+	float: left;
+	box-sizing: border-box;
+	background: rebeccapurple;
+	position: relative;
+}
+.u_right_box{
+	margin-left: 30px;
+	width: 420px;
+	float: left;
+	background: rosybrown;
+}
+
+.u_button{
+	background: url(../images/u_left_buttons.png) no-repeat 0 0;
+	margin-left: 4px;
+	width:246px;
+	height:95px;
+	float: left;
+}
+
+.u_btn_recharge{
+	background-position: 0 0;
+}
+.u_btn_download{
+	background-position: -252px -0px;
+}
+.u_btn_signup{
+	background-position: -508px -0px;
+}
+
+.u_even{
+	background: url(../images/u_right_buttons.png) no-repeat 0 0;
+	width:140px;
+	height:95px;
+	float: left;
+	/*border: 1px solid blue;*/
+}
+
+.u_btn_source{
+	background-position: 0 0px;
+}
+.u_btn_steps{
+	background-position: -140px 0px;
+}
+
+.u_btn_min{
+	background-position: -280px 0px;
+}
+
+.u_news_section{
+	width: 750px;
+	height: 500px;
+}
+
+.u_hotvideo{
+	width: 420px;
+	height: 247px;
+}
+.u_title{
+	font-size: 18px;
+	color: #fff;
+	line-height: 20px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.u_icon_hotvideo{
+	width: 35px;
+	height: 35px;
+	background-image: url(../images/dota2.home.icons.png);
+	background-position: -40px -1px;
+	float: left;
+}
+
+.u_title>span{
+	line-height: 35px;
+}
+
+.u_content{
+	width: 100%;
+	height: 187px;
+	background: lime;
+	/*position: absolute;*/
+}
+u_content img{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.u_racecenter{
+	width: 420px;
+	height: 359px;
+	background: lightgray;
+}
+.u_icon_racecenter{
+	width: 35px;
+	height: 35px;
+	background-image: url(../images/dota2.home.icons.png);
+	background-position: -3px -43px;
+	float: left;
+}
+.u_racecenter_content{
+	width: 100%;
+	height: 314px;
+	background: lime;
+	position: relative;
+	overflow: hidden;
+}
+.racecenter_slideshow{
+	width:500%;
+	height: 234px;
+	background: lawngreen;
+	position: absolute;
+}
+
+.racecenter_slideshow img{
+	width:20%;
+	height:100%;
+	float:left;
+}
+
+.racecenter_spot{
+	position: relative;
+	z-index: 5;
+	color:#fff;
+	float:left;
+	margin-top:282px;
+	left:40%;
+}
+.racecenter_spot>li{
+	border-style: solid;
+	width: 8px;
+	height: 8px;
+	display: inline-block;
+	border-radius: 25px;
+	margin-left:5px;
+}
+
+.u_icon_version{
+	width: 35px;
+	height: 35px;
+	background-image: url(../images/dota2.home.icons.png);
+	background-position: -3px -127px;
+	float: left;
+}
+/*主体内容样式结束*/
+
+/*尾部内容样式*/
+.dota2_footer_container{
+	font-family: "Microsoft YaHei", 微软雅黑, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    height: 160px;
+    background-color: rgb(0, 0, 0);
+    z-index: 1;
+    font-size: 12px;
+    color: rgb(149, 149, 149);
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.footer_main{
+	margin: 0 auto;
+    width: 1100px;
+    position: relative;
+    /*background:pink;*/
+/*    height:160px;*/
+}
+
+.footer_dl{
+	position: absolute;
+	top:40px;
+}
+
+.footer_dl dt {
+    float: left;
+    padding-left: 75px;
+}
+
+.footer_dl dd {
+    float: right;
+    font-size: 12px;
+    margin: 0;
+    line-height: 1.25;
+    max-width: 750px;
+}
+
+.footer_dl dt a{
+    float: left;
+    padding: 0 20px;
+}
+
+.certificate{
+    position: absolute;
+    top: 85px;
+    left: 230px;
+    line-height: 1.5;
+    font-size: 12px;
+    color: #333;
+    text-align: center;
+}
+/*尾部内容样式结束*/

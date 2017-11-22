@@ -1,0 +1,481 @@
+
+a{
+	text-decoration:none;
+	outline: none;
+}
+
+html{
+	background:#000;
+}
+
+body{
+	font-family: "微软雅黑";
+}
+
+.container{
+	width:100%;
+}
+
+/* --------------内容主体样式开始---------------------------------------- */
+
+.main-container{
+	width:100%;
+	background:url(../images/home_page/bg_video.jpg) no-repeat;
+}
+
+/* -------------bg-wrap1------------------------------------- */
+
+.bg-wrap1{
+	width:100%;
+/*	overflow: hidden;*/
+}
+
+.cover-container {
+	width: 1400px;
+	margin: 0 auto;
+	padding:0 68px 0 68px;
+}
+
+/* ------------头部样式开始---------------------------------- */
+
+.header{
+    padding-top: 70px;
+    position: relative;
+    z-index: 50;
+}
+
+.top-nav{
+	display:inline-block;
+}
+
+.top-nav li{
+    line-height: 24px;
+    font-size: 20px;
+    color: #a69e99;
+    transition: color .5s;
+    float:left;
+    display:inline-block;
+    margin-right: 95px;
+    width: 98px;
+    text-align: center;
+}
+
+.top-nav .center{
+	margin-right:424px;
+}
+
+.top-nav li:last-child {
+    margin-right: 0;
+}
+
+.top-nav a{
+	color: #a69e99;
+}
+
+.top-nav li:hover span{
+	color: #4585c3;
+}
+
+
+.lel-1{
+	height: 24px;
+    line-height: 24px;
+    font-size: 20px;
+    color: #a69e99;
+    transition: color 0.5s;
+}
+
+.lel-2{
+	height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #666;
+    transition: color 0.5s;
+}
+
+.dota2-logo{
+    width: 252px;
+    height: 155px;
+    display: block;
+    background: url(../images/home_page/logo.png) no-repeat;
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    margin-left: -122px;
+}
+
+.dota2-video{
+	width: 418px;
+    height: 216px;
+    box-sizing: border-box;
+    border: 1px solid #354250;
+    margin: 140px auto 40px;
+    overflow: hidden;
+    position: relative;
+    background-color: #000;
+}
+
+.header-video{
+	display: inline;
+}
+
+
+.swiper-container{
+	width: 400px;
+	height: auto;
+	margin: 0 auto;
+	margin: 0px auto 40px;
+}
+
+.swiper-slide{
+	background:black;
+	opacity: 1;
+}
+
+.free-play-btn{
+	height: 50px;
+    width: 304px;
+    border: 1px solid #336391;
+    margin: 0 auto 20px;
+    border-radius: 4px;
+    background-color: #111c26;
+    color: #4585c3;
+    display: block;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+    transition: background-color .3s;
+    letter-spacing: 3px;
+}
+
+.free-play-btn:hover {
+    background-color: #162533;
+}
+
+.free-btn-text{
+	font-size: 16px;
+    color: #5c6163;
+    text-align: center;
+    margin-bottom: 70px;
+    letter-spacing: 6px;
+}
+
+
+
+/* ------------头部样式结束---------------------------------- */
+
+/* -------------bg-wrap1------------------------------------- */
+
+/* -------------bg-wrap2------------------------------------- */
+
+.bg-wrap2{
+	position: relative;
+    background: url(../images/home_page/bg.jpg) center 0 no-repeat;
+}
+
+.cover-content{
+	width:100%;
+	height:auto;
+	display:inline-block;
+}
+
+.advert-item{
+	float: left;
+    height: 274px;
+    width: 387px;
+    position: relative;
+    text-align: center;
+    margin-right: 118px;
+    border-top: 1px solid #1d2b38;
+    box-sizing: border-box;
+    transition: margin-top 0.6s ease;
+    display:inline-block;
+}
+
+.advert-main ul{
+	display:inline-block;
+}
+
+.advert-item h4{
+	color: #5a6f83;
+    font-size: 20px;
+    background-color: #111c26;
+    height: 60px;
+    line-height: 60px;
+    transition: color 0.6s ease;
+}
+
+.advert-item:hover{
+	border-top: 1px solid #1a324a;
+    margin-top: -20px;
+}
+
+.advert-item:last-child{
+	margin-right:0;
+}
+
+.cover{
+    height: 211px;
+    width: 385px;
+    padding-top: 1px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    z-index: 2;
+/*    overflow: hidden;*/
+}
+
+.player-box{
+	height: 777px;
+    position: relative;
+}
+
+.player-box>a{
+	position: absolute;
+    width: 385px;
+    height: 244px;
+    top: 220px;
+    transition: 0.5s ease-out;
+}
+
+.player-box a:hover{
+	margin-top:-20px;
+}
+
+.new-player{
+	left:0;
+	background:url(../images/home_page/new_player.png) center 0 no-repeat;;
+}
+
+.old-player{
+	right:0;
+    background:url(../images/home_page/old_player.png) center 0 no-repeat;;
+}
+
+.new-player-pic{
+	position: absolute;
+    left: 112px;
+    top: -154px;
+    height: 1011px;
+    width: 1173px;
+    background: url(../images/home_page/new_player_bg.png) no-repeat;
+    display: block;
+    transition: .5s ease-out;
+    opacity: 1;
+}
+
+.old-player-pic{
+	position: absolute;
+    left: 112px;
+    top: -154px;
+    height: 1011px;
+    width: 1491px;
+    background: url(../images/home_page/old_player_bg.png) no-repeat;
+    display: block;
+    transition: .5s ease-out;
+    opacity: 0;
+}
+
+.cover-container2{
+	width:100%;
+}
+
+.share-model{
+	padding: 35px 20px 20px;
+    position: relative;
+    z-index: 100;
+    background:black;
+}
+
+.share-model ul{
+	display:inline-block;
+}
+
+.share-model li{
+	float: left;
+    padding-right: 28px;
+}
+
+.blank-space{
+	width: 155px;
+    padding: 0;
+    height: 30px;
+}
+
+.share-model a{
+    color: #999;
+    display: block;
+    font-size: 16px;
+    line-height: 26px;
+    height: 30px;
+    padding: 0 0 0 30px;
+}
+
+.service-online{
+	background: url(../images/home_page/icon-share.png) no-repeat 0 0;
+}
+
+.service-online:hover{
+	color:red;
+	background: url(../images/home_page/icon-share.png) no-repeat 0 -51px;
+}
+
+.question-guide{
+	background: url(../images/home_page/icon-share.png) no-repeat 0 -600px;
+}
+
+.question-guide:hover{
+	color:red;
+	background: url(../images/home_page/icon-share.png) no-repeat 0 -651px;
+}
+
+.privilege-benefit{
+	background: url(../images/home_page/icon-share.png) no-repeat 0 -200px;
+}
+
+.privilege-benefit:hover{
+	color:red;
+	background: url(../images/home_page/icon-share.png) no-repeat 0 -251px;
+}
+
+.link-weibo{
+	background: url(../images/home_page/icon-share.png) no-repeat 0 -300px;
+}
+
+.link-weibo:hover{
+	color:red;
+	background: url(../images/home_page/icon-share.png) no-repeat 0 -350px;
+}
+
+
+.link-weixin{
+	background: url(../images/home_page/icon-share.png) no-repeat 0 -400px;;
+}
+
+.link-weixin:hover{
+	color:green;
+	background: url(../images/home_page/icon-share.png) no-repeat 0 -450px;
+}
+
+.wechat-tips{
+	position:absolute;
+	top:-128px;
+	left:611px;
+	display:none;
+}
+
+.link-weixin:hover div{
+	display:block;
+}
+
+.link-BBS{
+	background: url(../images/home_page/icon-share.png) no-repeat 0 -500px;;
+}
+
+.link-BBS:hover{
+	color:#0e89ac;
+	background: url(../images/home_page/icon-share.png) no-repeat 0 -550px;;
+}
+
+.share-model>ul>li:last-child>a{
+    height:45px;
+    padding:0;
+}
+
+.share-model>ul>li:last-child{
+    float:right;
+}
+
+.clearfix{
+	width:100%;
+}
+
+.app-download{
+	background: url(../images/home_page/bg_shoplink.png) no-repeat;
+    display: block;
+    height: 50px;
+    left: 26px;
+    width: 294px;
+    position: relative;
+    top: -10px;
+}
+
+.app-download:hover{
+	background-position: 0 -45px;
+}
+	
+
+/* -------------bg-wrap2------------------------------------- 
+
+
+/*尾部内容样式*/
+.dota2_footer_container{
+    font-family: "Microsoft YaHei", 微软雅黑, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    height: 160px;
+    background-color: rgb(0, 0, 0);
+    z-index: 1;
+    font-size: 12px;
+    color: rgb(149, 149, 149);
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.footer_main{
+    margin: 0 auto;
+    width: 1100px;
+    position: relative;
+    /*background:pink;*/
+/*    height:160px;*/
+}
+
+.footer_dl{
+    position: absolute;
+    top:40px;
+}
+
+.footer_dl dt {
+    float: left;
+    padding-left: 75px;
+}
+
+.footer_dl dd {
+    float: right;
+    font-size: 12px;
+    margin: 0;
+    line-height: 1.25;
+    max-width: 750px;
+}
+
+.footer_dl dt a{
+    float: left;
+    padding: 0 20px;
+}
+
+.certificate{
+    position: absolute;
+    top: 85px;
+    left: 230px;
+    line-height: 1.5;
+    font-size: 12px;
+    color: #333;
+    text-align: center;
+}
+/*尾部内容样式结束*/
+
+
+
+/* --------------内容主体样式开始---------------------------------------- */
+
+
+/*@media screen and (max-width: 1448px){
+	.cover-container {
+	    width: 1200px;   
+	}
+}
+*/
+
+
+
+
+
